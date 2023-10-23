@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonComponent from './Button';
+import ImageComponent from './Image';
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <ButtonComponent button="BOTTONE" />
+        <ButtonComponent button="BOTTONE-2" />
+        <ImageComponent srcImage="https://placekitten.com/400" altImage="Immagine-gatto1"/>
+        <ImageComponent srcImage="https://placedog.net/400" altImage="Immagine-gatto1"/>
         <a
           className="App-link"
           href="https://reactjs.org"
